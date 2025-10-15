@@ -1,0 +1,274 @@
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0.7)),
+    url(zjgs096khv591.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.language-btn{
+    text-align: start;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 3px 7px;
+}
+
+.language-btn:hover{
+    background-color: white;
+    color: black;
+    
+    
+}
+nav button:hover{
+    background-color: rgb(245, 98, 98);
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background:red;
+    padding: 7px 20px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    
+
+}
+
+.header-content h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+
+} 
+
+.header-content p{
+    line-height: 45px;
+    
+}
+.email-signup input{
+    padding: 15px 100px;   
+    color: black;
+    opacity:70%;
+    border: 4px solid white;
+    border: 0;
+    
+    
+}
+
+.email-signup button{
+    font-weight: 600 ;
+    padding: 15px 70px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border:0;
+
+}
+.shows h4{
+    padding-bottom: 50px;
+    margin-top: 50%;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.ps{
+    overflow-x: scroll;
+}
+
+.ps::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes anime(
+    from {
+        tra
+    }
+    to{
+
+    }
+)
+
+.posters{
+    overflow-x: auto;
+    display: flex;
+    gap: 8em;
+
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.posters img{
+    width:200px;
+    height: 15%;
+}
+
+.reasons h4{
+    margin-top: 10%;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    gap: 2em;
+
+}
+
+.content .col{
+    margin-top: 25px;
+    background-color: rgb(52, 64, 195);
+    border: 0;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 10px 15px;
+}
+
+
+.col h4{
+    padding: 0px;
+    line-height: 35px;
+    text-align: start;
+    
+}
+.col span{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 25px; 
+    text-align: start;  
+}
+
+.qs h4{
+    margin-top: 85px;
+}
+
+.types-of-qs{
+    display: inline;
+}
+
+.types-of-qs  button{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(40, 40, 40);
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+    outline: 0;
+    border: 0;
+    margin-top: 10px;
+    padding-left: 30px;
+    
+}
+.types-of-qs  button:hover{
+    background-color:  rgb(68, 68, 68);
+}
+
+.sub-base{
+    align-items: center;
+    margin-top: 3%;
+    position: absolute;
+    text-align: center;
+    margin-left: 20%;
+    
+    
+    
+    
+
+}
+
+.sub-base span{
+    margin-top: 5%;
+    font-size: large;
+    display: block;
+
+}
+
+.sub-base input {
+    padding: 15px 100px;   
+    color: black;
+    opacity:70%;
+    border: 4px solid white;
+    border: 0;
+    width:70%;
+    margin-top: 20px;
+
+}
+
+.sub-base button{
+    font-weight: 600 ;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border:0;
+}
+.base{
+    margin-top: 20%;
+    color: gray;
+}
+
+.base span a{
+    color: gray;
+    
+}
+.base span a:hover{
+    color: white;
+}
+
+.ndlink{ 
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.ndlink span a{
+    color: gray;
+    column-gap: 3em;
+
+}
+.ndlink span a:hover{
+    color: white;
+}
